@@ -1,0 +1,38 @@
+body {
+    background-color : lightgray;
+}
+
+
+h1 {
+    color : rgb(36, 19, 134);
+    font-size: 2.5em;
+}
+
+p {
+    color : blue;
+    font-family : Arial, sans-serif;
+}
+
+.column {
+    display : flex;
+    gap : 1em;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.p-box {
+    background-color : whitesmoke;
+    padding : 1em;
+    border-radius : 5px;
+    margin: 1em 0;
+    box-shadow : 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ul-box {
+    background-color : whitesmoke;
+    padding : 2em;
+    border: 5px solid blue;
+    border-radius: 5px;
+    box-shadow : 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
